@@ -5,6 +5,49 @@ i {
   margin-right: 24px;
 }
 
+.scenario {
+  text-align: "left";
+}
+.scenario h3 {
+  text-align: center;
+}
+.scenario .icon-remove {
+  color: #9d261d;
+}
+.scenario .icon-ok {
+  color: #46a546;
+}
+
+.manifesto {
+  text-align: left;
+}
+.manifesto div {
+  margin-bottom: 16px;
+}
+.manifesto span {
+  font-size: 52px;
+  border-bottom: 2px solid #fff;
+}
+
+.job-history {
+  text-align: left;
+}
+.job-history h2 {
+  text-align: center;
+}
+.job-history i {
+  width: 65px;
+  float: left;
+  position: relative;
+  top: 6px;
+}
+.job-history small {
+  float: right;
+  position: relative;
+  top: 30px;
+  font-size: 14px;
+}
+
 .section-title {
   border-bottom: 7px solid #e9eaeb;
   margin-bottom: 36px;
@@ -42,6 +85,17 @@ i {
   margin-right: 16px;
 }
 
+.reveal ul.patterns {
+  list-style-type: none;
+}
+.patterns li {
+  float: left;
+  width: 434px;
+  font-size: 82px;
+  line-height: 102px;
+  margin-right: 16px;
+}
+
 .reveal ul.community {
   list-style-type: none;
 }
@@ -53,13 +107,14 @@ i {
 }
 
 .resources li {
-  font-size: 72px;
+  font-size: 52px;
   line-height: 86px;
 }
 
 a {
   line-height: 60px;
   color: #2233AA;
+  text-decoration: none;
 }
 
 button {
@@ -212,6 +267,11 @@ body {
   line-height: 1.2em; 
   margin-bottom: 30px; 
 }
+.reveal h3 small {
+  font-size: 32px;
+  position: relative;
+  top: 36px;
+}
 .reveal h4 { 
   font-size: 56px; 
   line-height: 1.2em;  
@@ -318,7 +378,7 @@ body {
     content: '”';
   }
 
-/*.reveal pre {
+.reveal pre {
   display: block;
   position: relative;
   width: 95%;
@@ -331,8 +391,8 @@ body {
 
   word-wrap: break-word;
 
-  /*box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-}*/
+  /*box-shadow: 0px 0px 6px rgba(0,0,0,0.3);*/
+}
 
 .reveal code {
   font-family: monospace;
@@ -356,7 +416,7 @@ body {
 }
 
 .reveal small {
-  font-size: 60%;
+  font-size: 50%;
   line-height: 1em;
   vertical-align: top;
 }
@@ -376,7 +436,7 @@ body {
   }
 
 .reveal a:not(.image) {
-  /*color: hsl(185, 85%, 50%);*/
+  /*color: hsl(185, 85%, 50%);
   text-decoration: none;
 /*
   -webkit-transition: color .15s ease;
@@ -443,7 +503,8 @@ body {
   }
     .reveal .controls a.enabled {
       opacity: 0.6;
-      color: hsl(185, 85%, 70%);
+      /*color: hsl(185, 85%, 70%);*/
+      color: #049cbd;
 
       text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
     }
@@ -483,12 +544,13 @@ body {
   bottom: 0;
   left: 0;
 
-  background: rgba(0,0,0,0.2);
+  background: #049cbd;
 }
   
   .reveal .progress span {
     display: block;
-    background: hsl(185, 85%, 50%);
+    /*background: hsl(185, 85%, 50%);*/
+    background: #049cbd;
     height: 100%;
     width: 0px;
 
